@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Cache
+.coverage
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Production Build
+.next/
+out/
+build/
+dist/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Binary & Database Stores
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar.gz
+*.exe
+
+# Environment & Secrets
+.env.local
+.env.*.local
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
