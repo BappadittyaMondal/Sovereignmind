@@ -39,7 +39,7 @@ SERVICES = {
     "ayurveda": {
         "name": "AYURVEDA_AGENT (A-CDSS 52 Routers)",
         "port": 8002,
-        "health_url": "http://127.0.0.1:8002/health",
+        "health_url": "http://127.0.0.1:8002/api/v1/health",
         "command": "python -m uvicorn main:app --port 8002",
         "cwd": "AYURVEDA_AGENT",
         "domain": "Clinical AYUSH"
@@ -47,7 +47,7 @@ SERVICES = {
     "homeopathy": {
         "name": "HOMEOPATHY_AGENT (CSR Repertory Kernel)",
         "port": 8003,
-        "health_url": "http://127.0.0.1:8003/health",
+        "health_url": "http://127.0.0.1:8003/api/v1/health",
         "command": "python -m uvicorn app.main:app --port 8003",
         "cwd": "HOMEOPATHY_AGENT",
         "domain": "Clinical AYUSH"
